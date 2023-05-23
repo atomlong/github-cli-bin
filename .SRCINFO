@@ -1,0 +1,20 @@
+pkgbase = github-cli-bin
+	pkgdesc = The GitHub CLI
+	pkgver = 2.29.0
+	pkgrel = 1
+	url = https://github.com/cli/cli
+	arch = i686
+	arch = x86_64
+	license = MIT
+	checkdepends = openssh
+	depends = mailcap
+	optdepends = git: To interact with repositories
+	optdepends = org.freedesktop.secrets: Store credentials in system keyring
+	provides = github-cli=2.29.0
+	conflicts = github-cli
+	source_i686 = https://github.com/cli/cli/releases/download/v2.29.0/gh_2.29.0_windows_386.zip
+	sha256sums_i686 = 3d626044e442e59c951ad8571cdf6bf07199c905fc0eb1de15283cde8fae9ae2
+	source_x86_64 = https://github.com/cli/cli/releases/download/v2.29.0/gh_2.29.0_windows_amd64.zip
+	sha256sums_x86_64 = 031eb343ebff6f8cc712d58d79267ee00b0c61b37d6698927161daae895044c6
+
+pkgname = github-cli-bin
